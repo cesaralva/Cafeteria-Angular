@@ -35,7 +35,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 `$ npm install animate.css --save`
 
-## Or install with Yarn (this will only work with appropriate tooling like Webpack, Parcel, etc. If you are not using any tool for packing or bundling your code, you can simply use the CDN method below):
+Or install with Yarn (this will only work with appropriate tooling like Webpack, Parcel, etc. If you are not using any tool for packing or bundling your code, you can simply use the CDN method below):
 
 `$ yarn add animate.css`
 
@@ -43,8 +43,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ```
 import 'animate.css';
-Or add it directly to your webpage using a CDN:
+
 ```
+Or add it directly to your webpage using a CDN:
+
 
 
 ```
