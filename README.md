@@ -25,3 +25,33 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## instalar paquetes
+`npm install`
+
+
+
+## Install with npm:
+
+`$ npm install animate.css --save`
+
+## Or install with Yarn (this will only work with appropriate tooling like Webpack, Parcel, etc. If you are not using any tool for packing or bundling your code, you can simply use the CDN method below):
+
+`$ yarn add animate.css`
+
+## Import it into your file:
+
+```
+import 'animate.css';
+Or add it directly to your webpage using a CDN:
+```
+
+
+```
+<head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+```
