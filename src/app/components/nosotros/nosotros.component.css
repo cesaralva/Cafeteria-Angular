@@ -24,6 +24,18 @@
   color: #7A7A7A;
 }
 
+
+.section-background-principal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../../assets/img/nosotros-fondo.PNG');
+  background-size: 1280px 284px;
+  background-repeat: no-repeat;
+  height: 284px;
+  margin-top: -50px;
+}
+
 .section-background {
   display: flex;
   justify-content: center;
@@ -91,4 +103,26 @@
 .list-unstyled a{
   text-decoration: none;
 }
+@media only screen and (device-width: 768px) {
 
+.section-background-principal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../../assets/img/nosotros-fondo.PNG');
+  background-size: 1280px 284px;
+  background-repeat: no-repeat;
+  height: 284px;
+  margin-top: -50px;
+}
+
+.section-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../../assets/img/Fondo.PNG');
+  background-size: 1280px 284px;
+  background-repeat: no-repeat;
+  height: 284px;
+}
+}
