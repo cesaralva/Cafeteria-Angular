@@ -8,39 +8,48 @@
 .line {
   width: 200px;
   height: 2px;
-  background-color: #D5BA7F;
-  border: solid 1px #D5BA7F ;
+  background-color: #d5ba7f;
+  border: solid 1px #d5ba7f;
   margin: 0 20px;
 }
 
-
-.head-parrafo{
-  color: #7A7A7A;
+.head-parrafo {
+  color: #7a7a7a;
   font-size: 20px;
+  animation: backInRight;
+  animation-duration: 2s;
 }
 
 .list-group-item {
   border: none;
-  color: #7A7A7A;
+  color: #7a7a7a;
+  animation: backInLeft;
+  animation-duration: 2s;
+
 }
 
-
-.section-background-principal{
+.list-group p{
+  animation: backInRight;
+  animation-duration: 2s;
+}
+.section-background-principal {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('../../../assets/img/nosotros-fondo.PNG');
+  background-image: url("../../../assets/img/nosotros-fondo.PNG");
   background-size: 1280px 284px;
   background-repeat: no-repeat;
   height: 284px;
   margin-top: -50px;
+
+
 }
 
 .section-background {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('../../../assets/img/Fondo.PNG');
+  background-image: url("../../../assets/img/Fondo.PNG");
   background-size: 1280px 284px;
   background-repeat: no-repeat;
   height: 284px;
@@ -53,12 +62,10 @@
 }
 
 .btn-custom:hover {
-  background-color: #D5BA7F;
+  background-color: #d5ba7f;
 }
 
-
-
-.parrafo-interes{
+.parrafo-interes {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,15 +74,15 @@
   font-size: 22px;
   color: #2b2b2b;
   font-family: sans-serif;
-  background-color: #FFD400;
+  background-color: #ffd400;
   padding: 5px 0;
 
+
 }
 
-.parrafo-interes a{
+.parrafo-interes a {
   text-decoration: none;
 }
-
 
 .footer {
   background-color: #333;
@@ -84,7 +91,7 @@
 }
 
 .footer h5 {
-  color: #D5BA7F;
+  color: #d5ba7f;
 }
 
 .footer ul li {
@@ -97,32 +104,33 @@
 }
 
 .footer a:hover {
-  color: #D5BA7F;
+  color: #d5ba7f;
 }
 
-.list-unstyled a{
+.list-unstyled a {
   text-decoration: none;
 }
 @media only screen and (device-width: 768px) {
+  .section-background-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../../assets/img/nosotros-fondo.PNG");
+    background-size: 1280px 284px;
+    background-repeat: no-repeat;
+    height: 284px;
+    margin-top: -50px;
+  }
 
-.section-background-principal{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url('../../../assets/img/nosotros-fondo.PNG');
-  background-size: 1280px 284px;
-  background-repeat: no-repeat;
-  height: 284px;
-  margin-top: -50px;
+  .section-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../../assets/img/Fondo.PNG");
+    background-size: 1280px 284px;
+    background-repeat: no-repeat;
+    height: 284px;
+  }
 }
 
-.section-background {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url('../../../assets/img/Fondo.PNG');
-  background-size: 1280px 284px;
-  background-repeat: no-repeat;
-  height: 284px;
-}
-}
+
