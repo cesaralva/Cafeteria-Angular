@@ -1,2 +1,40 @@
-<app-navbar></app-navbar>
+<nav class="navbar navbar-expand-lg navbar-custom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img
+        src="../../../assets/img/pngeggcorazon.png"
+        alt="Café Logo"
+        width="60"
+        height="60"
+      />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div
+      class="collapse navbar-collapse justify-content-end"
+      id="navbarNavAltMarkup"
+    >
+      <div class="navbar-nav">
+
+          <a class="nav-link active" routerLink="home">Inicio</a>
+          <a class="nav-link active" routerLink="nosotros">Nosotros</a>
+          <a class="nav-link active" routerLink="lacarta">La carta</a>
+          <a class="nav-link active" routerLink="reservas">Reservas</a>
+          <a class="nav-link active" routerLink="locales">Nuestros Locales</a>
+
+      </div>
+    </div>
+  </div>
+</nav>
+<router-outlet></router-outlet>
+
 
